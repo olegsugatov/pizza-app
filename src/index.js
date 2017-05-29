@@ -3,6 +3,7 @@ import { View } from 'react-native';
 
 // components
 import { Header } from './components/common';
+import Product from './components/Product';
 
 class App extends Component {
 	render() {
@@ -11,6 +12,7 @@ class App extends Component {
 				<Header>
 					Pizza App
 				</Header>
+				<Product />
 			</View>
 		);
 	}
